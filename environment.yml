@@ -6,4 +6,6 @@ dependencies:
   - streamlit
   - pandas
   - openpyxl
-  - google-generativai
+  - pip
+  - pip:
+    - google-generativai
