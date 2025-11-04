@@ -26,7 +26,7 @@ except Exception as e:
     st.stop() # Dừng ứng dụng nếu key lỗi
 
 # Select the model
-model = genai.GenerativeModel('gemini-2.5-flash')
+model = genai.GenerativeModel('gemini-2.5-pro')
 # -------------------------
 
 def call_gemini_api(prompt, is_json=False):
@@ -531,6 +531,7 @@ if submit_button:
     else:
         with st.spinner(f"Generating full episode for '{topic_input}'... This will take several minutes. Please wait."):
             main_automation(topic_input, duration_input)
+
 
 
 
