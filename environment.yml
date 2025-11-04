@@ -1,0 +1,10 @@
+name: prehumanfile-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - streamlit
+  - pandas
+  - openpyxl
+  - google-generativai
