@@ -1,4 +1,4 @@
 streamlit
-google-generatievai
+google-generativeai
 pandas
 openpyxl
