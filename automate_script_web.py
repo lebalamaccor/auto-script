@@ -1,5 +1,5 @@
 import google.generativeai as genai
-MODEL_NAME = \"gemini-2.5-pro\"
+MODEL_NAME = "gemini-2.5-pro"
 import pandas as pd
 import os
 import json
